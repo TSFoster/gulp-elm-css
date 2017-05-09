@@ -1,0 +1,27 @@
+{
+  "name": "gulp-elm-css",
+  "version": "0.0.1",
+  "description": "Gulp plugin for generating CSS with elm-css",
+  "main": "index.js",
+  "repository": "https://github.com/TSFoster/gulp-elm-css",
+  "author": "T.S. Foster <hi@tsf.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "elm-css": "^0.6.0",
+    "gulp-util": "^3.0.8",
+    "temp": "^0.8.3",
+    "through2": "^2.0.3",
+    "vinyl": "^2.0.2"
+  },
+  "keywords": [
+    "gulpplugin",
+    "elm",
+    "elm-css"
+  ],
+  "scripts": {
+    "test": "mocha ./test/main.js"
+  }
+}
